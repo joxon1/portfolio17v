@@ -1,0 +1,17 @@
+.list {
+  padding: 15px ;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+  gap: 1rem;
+}
+.skills_container {
+  min-width: 600px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.skills_title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #fff;
+}

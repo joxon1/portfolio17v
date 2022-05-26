@@ -1,0 +1,22 @@
+.navbar_back {
+  width: 150px;
+  height: 100vh;
+  background: #1d1d1d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #909090;
+}
+.brand_border {
+  border-top: 1px solid #313131;
+  width: 150px;
+  padding: 15px;
+}
+.logo img {
+  width: 150px;
+  height: 150px;
+
+}
+.navbar_tag {
+  margin-top: 40px;
+}

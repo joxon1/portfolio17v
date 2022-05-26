@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.portfolio_container {
+  min-width: calc(100vw - 150px);
+  padding-left: 150px;
+  height: 100vh;
+  background: #1d1d1d;
+}
