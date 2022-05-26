@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import TypeWriterEffect from "react-typewriter-effect";
-import logo from "../accets/logo.png";
+import logo from "../assets/logo.png";
 const About = () => {
   return (
     <div className="portfolio_container d-flex justify-content-center align-items-center">

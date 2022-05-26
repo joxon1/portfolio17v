@@ -3,7 +3,8 @@ import { Card, Image } from "react-bootstrap";
 import "../styles/MySkills.css";
 import { SkillsItem } from "../components/SkillsItem";
 import ProgressBar from "react-customizable-progressbar";
-
+import {CircularProgressbar} from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 const MySkills = () => {
   return (
     <div className="portfolio_container text-white">
@@ -15,18 +16,13 @@ const MySkills = () => {
           <div className="list">
             {SkillsItem.map(({ title,color, progress }) => (
               
-                <ProgressBar
-                  radius={100}
-                  progress={75}
-                  strokeWidth={28}
-                  strokeColor={color}
-                  strokeLinecap="butt"
-                  trackStrokeWidth={14}
-                  trackStrokeLinecap="butt"
-                  initialAnimation={true}
-                  transition="1.5s ease 0.5s"
-                  trackTransition="0s ease"
-                />
+              <CircularProgressbar
+              percentage={progress}
+              initialAnimation={"25%"}
+              text={`${title}%`
+              
+            }
+            />
             ))}
           </div>
           <div></div>
