@@ -15,14 +15,29 @@ const MySkills = () => {
         </div>
         <div>
           <div className="list">
-            {SkillsItem.map(({ title, img, percentage,color }) => (
-              <CirclarProgress
-                size={250}
-                strokeWidth={20}
-                percentage={percentage}
-                color={color}
-                title={title}
-              />
+            {SkillsItem.map(({ title, img, percentage, color }) => (
+              <div className="list">
+                <div className="d-flex flex-column justify-content-start align-items-center text-center">
+                  <div className="list_title">
+                    <h5>{title}</h5>
+                    <img
+                      
+                      width={50}
+                      style={{ padding: 2 }}
+                      src={img}
+                      alt={title}
+                    />
+                  </div>
+                  <div className="mt-2">
+                    <CirclarProgress
+                      size={146}
+                      strokeWidth={20}
+                      percentage={percentage}
+                      color={color}
+                    />
+                  </div>
+                </div>
+              </div>
             ))}
           </div>
           <div></div>
