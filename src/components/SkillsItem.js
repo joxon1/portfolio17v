@@ -26,13 +26,13 @@ export const SkillsItem = [
   {
     title: "Adobe Photoshop",
     color: "#4595fd",
-    percentage: "85",
+    percentage: "100",
     img: "https://seeklogo.com/images/P/photoshop-2020-logo-37B02055A4-seeklogo.com.png",
   },
   {
     title: "Pinnacle",
     color: "#d13aca",
-    percentage: "72",
+    percentage: "100",
     img: "https://lumpics.ru/wp-content/uploads/2016/04/Pinnacle-Studio-skachat-besplatno-Pinakl-Studio.png",
   },
   {

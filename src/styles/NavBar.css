@@ -20,3 +20,8 @@
 .navbar_tag {
   margin-top: 40px;
 }
+@media (max-width: 768px) {
+  .navbar_back {
+    display: none;
+  }
+}
