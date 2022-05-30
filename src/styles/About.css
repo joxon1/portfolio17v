@@ -9,9 +9,6 @@
   grid-template-columns: repeat(auto-fill, minmax(50%, 2fr));
   padding: 0 2rem;
 }
-.title_conatiner {
-  
-}
 .about_title{
   width: 60%;
 }

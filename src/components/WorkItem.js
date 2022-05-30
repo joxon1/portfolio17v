@@ -14,5 +14,5 @@ export const WorkItem = [
   {
     title: "React JS",
     img: "https://findstack.com/wp-content/uploads/2021/02/word-image-14.png"
-  }
+  },
 ];
