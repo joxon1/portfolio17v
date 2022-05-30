@@ -2,6 +2,9 @@
   font-size: 3.5rem;
   font-weight: bold;
 }
-.contact_input{
+.contact_container {
+  width: 100%;
+}
+.input_container {
   width: 50%;
 }
