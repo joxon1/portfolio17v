@@ -7,4 +7,34 @@
 }
 .input_container {
   width: 50%;
+  padding: 20px;
+}
+.location_maps {
+  width: 50%;
+  height: 100vh;
+  padding: 20px;
+}
+.maps {
+  width: 100%;
+  height: 85vh;
+}
+.contact_icons {
+  width: 100%;
+  height: 100px;
+}
+#icons {
+  font-size: 100px;
+  color: white;
+}
+#icons:hover {
+  transform: scale(1.1);
+  color: rgb(0, 180, 75);
+  transition: 0.3s;
+}
+.contact_qr{
+  margin-top: 30px;
+}
+.contact_qr img {
+  width: 350px;
+  height: 350px;
 }
