@@ -26,16 +26,10 @@ const NavBar = () => {
             </div>
           </div>
           <div>
-            <div className="d-flex justify-content-evenly align-items-end navbar_tag">
-              <Link className="navbar-brand navbar_icons">
-                <i class="bi bi-youtube"></i>
-              </Link>
-              <Link className="navbar-brand">
-                <i class="bi bi-telegram"></i>
-              </Link>
-              <Link className="navbar-brand">
-                <i class="bi bi-instagram"></i>
-              </Link>
+            <div className="d-flex justify-content-evenly align-items-end navbar_tag navbar-brand navbar_icons">
+              <Link class="bi bi-youtube  navbar-brand "></Link>
+              <Link class="bi bi-telegram navbar-brand"></Link>
+              <Link class="bi bi-instagram navbar-brand"></Link>
             </div>
           </div>
         </div>

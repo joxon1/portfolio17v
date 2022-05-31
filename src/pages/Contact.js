@@ -4,6 +4,7 @@ import MyInput from "../components/UI/input/MyInput";
 import MyTextarea from "../components/UI/textarea/MyTextarea";
 import "../styles/Contact.css";
 import qr_code from "../assets/qrcode.png";
+import MyButton from "../components/UI/buttons/MyButton";
 
 function Contact() {
   return (
@@ -17,8 +18,9 @@ function Contact() {
           </div>
           <MyInput placeholder="Subject" type="message" />
           <MyTextarea placeholder="Message..." />
-          <div className="contact_number d-flex flex-column justify-content-around align-items-center">
-            <div className="contact_icons d-flex justify-content-evenly ">
+          <MyButton />
+          <div className="contact_number d-flex  justify-content-evenly align-items-center">
+            <div className="contact_icons d-flex flex-column justify-content-evenly align-items-center ">
               <Link id="icons" class="bi bi-instagram"></Link>
               <Link id="icons" class="bi bi-telegram"></Link>
               <Link id="icons" class="bi bi-youtube"></Link>

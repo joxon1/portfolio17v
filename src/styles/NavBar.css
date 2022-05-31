@@ -15,13 +15,22 @@
 .logo img {
   width: 150px;
   height: 150px;
-
 }
 .navbar_tag {
   margin-top: 40px;
 }
+.navbar_icons{
+  padding: 2px;
+  font-size: 30px;
+}
+.navbar-brand:hover {
+  transform: scale(1.1);
+  color: rgb(0, 180, 75);
+  transition: 0.3s;
+}
 @media (max-width: 768px) {
   .navbar_back {
     display: none;
+    position: none;
   }
 }

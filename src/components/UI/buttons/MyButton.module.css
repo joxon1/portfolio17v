@@ -1,16 +1,16 @@
-.myInput {
-  width: 100%;
+.myButton {
+  width: 50%;
   height: 40px;
   padding: 5px 15px;
-  margin-bottom: 5px ;
+  margin-bottom: 5px;
   border: none;
   outline: none;
   border: 1px solid rgb(175, 175, 175);
   font-size: 20px;
-  background: rgb(58, 58, 58);
+  background: rgb(0, 187, 78);
   color: rgb(212, 208, 208);
 }
-.myInput:focus {
-  border-bottom: 3px solid rgb(0, 180, 75);
+.myButton:active {
+  background: rgb(0, 88, 37);
   transition: linear 0.2s all;
 }
