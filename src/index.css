@@ -6,8 +6,7 @@ body{
   background: #1d1d1d;
 }
 .portfolio_container {
-  min-width: calc(100vw - 150px);
-  padding-left: 150px;
+  min-width: calc(150px - 100vw);
   height: 100vh;
   background: #1d1d1d;
 }
