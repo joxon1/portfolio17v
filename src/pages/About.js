@@ -5,8 +5,7 @@ import logo from "../assets/logo.png";
 const About = () => {
   return (
     <div className="portfolio_container d-flex justify-content-center align-items-center">
-      <div className="d-flex justify-content-between">
-        <div className="d-flex justify-content-around text-white title_conatiner ">
+       
           <div className="header_container">
             <div className="about_title">
               <h1 style={{ paddingTop: "3rem", margin: "auto 0" }}>
@@ -39,9 +38,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
   );
 };

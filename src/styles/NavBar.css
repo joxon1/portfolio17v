@@ -1,5 +1,5 @@
 .navbar_back {
-  width: 150px;
+  min-width: 150px;
   height: 100vh;
   background: #1d1d1d;
   position: fixed;
@@ -7,30 +7,32 @@
   left: 0;
   color: #909090;
 }
-.brand_border {
-  border-top: 1px solid #313131;
-  width: 150px;
-  padding: 15px;
-}
 .logo img {
   width: 150px;
   height: 150px;
 }
-.navbar_tag {
-  margin-top: 40px;
+.brand_link {
+  border-top: 1px solid #313131;
+  width: 150px;
+  padding: 15px;
+  text-align: center;
+  font-size: 22px;
 }
-.navbar_icons{
+.navbar_icons {
   padding: 2px;
-  font-size: 30px;
+  font-size: 40px;
+  color: #909090;
 }
-.navbar-brand:hover {
+.navbar_icons:hover,
+.brand_link:hover {
+  border-top: 1px solid rgb(0, 180, 75);
   transform: scale(1.1);
   color: rgb(0, 180, 75);
   transition: 0.3s;
 }
-@media (max-width: 768px) {
+/*********************** mediani togillash kere **********************/
+/* @media screen and (max-width: 1280px) {
   .navbar_back {
     display: none;
-    position: none;
   }
-}
+} */

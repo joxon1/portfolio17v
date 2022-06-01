@@ -6,32 +6,20 @@ import logo from "../assets/logo.png";
 const NavBar = () => {
   return (
     <>
-      <div className="navbar_back d-flex justify-content-center align-items-center ">
-        <div>
-          <div className="logo">
-            <img src={logo} alt="" />
-          </div>
-          <div className=" d-flex justify-content-center align-items-center   flex-column ">
-            <div className="brand_border d-flex align-items-center justify-content-center">
-              <Link className="navbar-brand">About</Link>
-            </div>
-            <div className=" brand_border d-flex align-items-center justify-content-center">
-              <Link className="navbar-brand">My Skills</Link>
-            </div>
-            <div className=" brand_border d-flex justify-content-center align-items-center ">
-              <Link className="navbar-brand">Work</Link>
-            </div>
-            <div className="brand_border d-flex align-items-center   justify-content-center">
-              <Link className="navbar-brand">Contact</Link>
-            </div>
-          </div>
-          <div>
-            <div className="d-flex justify-content-evenly align-items-end navbar_tag navbar-brand navbar_icons">
-              <Link class="bi bi-youtube  navbar-brand "></Link>
-              <Link class="bi bi-telegram navbar-brand"></Link>
-              <Link class="bi bi-instagram navbar-brand"></Link>
-            </div>
-          </div>
+      <div className="d-flex flex-column justify-content-around  align-items-center navbar_back">
+        <div className="logo">
+          <img src={logo} alt="Road for Junior" />
+        </div>
+        <div className="d-flex flex-column justify-content-between align-items-center">
+          <Link className="navbar-brand brand_link">About</Link>
+          <Link className="navbar-brand brand_link">My Skills</Link>
+          <Link className="navbar-brand brand_link">Work</Link>
+          <Link className="navbar-brand brand_link">Contact</Link>
+        </div>
+        <div className="d-flex flex-column">
+          <Link class="bi bi-instagram navbar_icons"></Link>
+          <Link class="bi bi-telegram navbar_icons"></Link>
+          <Link class="bi bi-youtube  navbar_icons "></Link>
         </div>
       </div>
     </>
