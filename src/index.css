@@ -12,20 +12,4 @@ body {
   height: 100vh;
   background: #1d1d1d;
 }
-@media screen and (max-width: 1384px) {
-  .about_container {
-    width: 375px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 10px;
-  }
-  .box_1 .box_2 .box_img {
-    width: 150px;
-    height: 150px;
-  }
-  .list_item {
-    width: 50%;
-  }
-}
+

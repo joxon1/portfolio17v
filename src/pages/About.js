@@ -16,7 +16,6 @@ const About = () => {
                 fontSize: "4rem",
                 color: "white",
                 textShadow: "0 0 20px white",
-                
               }}
               multiTextLoop={true}
               multiText={[
