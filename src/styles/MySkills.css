@@ -1,20 +1,25 @@
-.list {
-  padding: 15px ;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
-  gap: 1rem;
+.skills_container{
+  height: 100vh;
+  justify-content: space-around;
 }
-.skills_container {
-  min-width: 600px;
+.list {
   display: flex;
-  justify-content: center;
-  height: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.list_item{
+  width: 25%;
 }
 .skills_title {
   font-size: 3.5rem;
   font-weight: bold;
   color: #fff;
 }
-.list_title{
+.list_title {
   height: 100px;
+}
+@media screen and (max-width: 1384px) {
+  .list_item{
+    width: 50%;
+  }
 }

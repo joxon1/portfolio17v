@@ -5,17 +5,18 @@ import logo from "../assets/logo.png";
 const About = () => {
   return (
     <div className="portfolio_container d-flex justify-content-center align-items-center">
-      <div className="d-flex justify-content-evenly align-items-center about_container">
+      <div className="d-flex justify-content-between align-items-center about_container">
         <div className="about_title">
           <h1>
             <TypeWriterEffect
-              width="50%"
+              width="60%"
               startDelay={100}
               cursorColor="red"
               textStyle={{
                 fontSize: "4rem",
                 color: "white",
                 textShadow: "0 0 20px white",
+                
               }}
               multiTextLoop={true}
               multiText={[
