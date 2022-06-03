@@ -40,6 +40,9 @@
     width: 100px;
     height: 100px;
   }
+  .input_media{
+    padding-left: 15px;
+  }
   #icons {
     font-size: 30px;
   }
