@@ -8,8 +8,14 @@ body {
 .portfolio_container {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
+  min-width: 50vw;
   height: 100vh;
+  padding-left: 150px;
   background: #1d1d1d;
+}
+@media screen and (max-width: 1384px) {
+  .portfolio_container{
+    padding-left: 0;
+  }
 }
 

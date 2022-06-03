@@ -15,17 +15,18 @@ const About = () => {
               textStyle={{
                 fontSize: "4rem",
                 color: "white",
-                textShadow: "0 0 20px white",
+                textShadow: "0 0 20px white"
               }}
               multiTextLoop={true}
               multiText={[
                 "Hi, ",
                 "My name is Joxongir",
-                "I'm Fronted Developer ",
+                "I'm Fronted Developer "
               ]}
               multiTextDelay={1000}
               typeSpeed={100}
               deleteSpeed={100}
+              className="typewriter"
             />
           </h1>
         </div>

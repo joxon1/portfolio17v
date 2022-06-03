@@ -30,14 +30,9 @@
   color: rgb(0, 180, 75);
   transition: 0.3s;
 }
-/* @media screen and (max-width: 1384px) {
+@media screen and (max-width: 1384px) {
  .navbar_back{
-    overflow: hidden;
+    top: 0;
+    left: -150px;
  }
-} */
-/*********************** mediani togillash kere **********************/
-/* @media screen and (max-width: 1280px) {
-  .navbar_back {
-    display: none;
-  }
-} */
+}

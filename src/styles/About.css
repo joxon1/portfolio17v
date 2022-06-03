@@ -22,6 +22,9 @@
   width: 100%;
   box-shadow: 0 0 40px white;
 }
+.typewriter{
+  font-size: 20px;
+}
 
 @keyframes spin {
   from {
