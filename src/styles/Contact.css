@@ -2,7 +2,6 @@
   font-size: 3.5rem;
   font-weight: bold;
 }
-
 .input_container {
   width: 50%;
 }
@@ -32,4 +31,16 @@
 .contact_qr img {
   width: 300px;
   height: 300px;
+}
+@media screen and (max-width: 1384px) {
+  .input_container :first-child {
+    flex-direction: column;
+  }
+  .contact_qr img {
+    width: 100px;
+    height: 100px;
+  }
+  #icons {
+    font-size: 30px;
+  }
 }

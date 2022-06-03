@@ -12,13 +12,15 @@ function Contact() {
       <div className="contact_title text-center">Contact us</div>
       <div className="d-flex justify-content-around contact_container">
         <div className="input_container">
-          <div className="d-flex justify-content-between">
-            <MyInput placeholder="Name..." />
-            <MyInput placeholder="Email..." />
+          <div>
+            <div className="d-flex justify-content-between">
+              <MyInput placeholder="Name..." />
+              <MyInput placeholder="Email..." />
+            </div>
+            <MyInput placeholder="Subject" type="message" />
+            <MyTextarea placeholder="Message..." />
+            <MyButton />
           </div>
-          <MyInput placeholder="Subject" type="message" />
-          <MyTextarea placeholder="Message..." />
-          <MyButton />
           <div className="contact_number d-flex  justify-content-evenly align-items-center">
             <div className="contact_icons d-flex flex-column justify-content-evenly align-items-center ">
               <Link id="icons" class="bi bi-instagram"></Link>
