@@ -1,13 +1,13 @@
-.skills_container{
+.skills_container {
   height: 100vh;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
 }
-.list_item{
+.list_item {
   width: 25%;
 }
 .skills_title {
@@ -19,7 +19,16 @@
   height: 100px;
 }
 @media screen and (max-width: 1384px) {
-  .list_item{
-    width: 50%;
+  .list_item {
+    width: 25%;
+  }
+  .list_item :only-child{
+    width: 80%;
+  }
+  .list_title h5{
+    height: 45px;
+  }
+  .skills_title{
+    font-size: 1.5rem;
   }
 }

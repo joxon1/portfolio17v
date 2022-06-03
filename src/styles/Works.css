@@ -25,10 +25,18 @@
 }
 .work_box_img {
   padding: 10px;
-  height: 150px;
+  width: 150px;
 }
 .work_box_title {
   font-size: 2.5rem;
   font-weight: bold;
   width: 50%;
+}
+@media screen and (max-width: 1384px) {
+  .work_link_box{
+    width: 300px;
+  }
+  .work_box_title{
+    font-size: 1rem;
+  }
 }

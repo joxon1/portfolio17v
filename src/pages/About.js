@@ -5,7 +5,7 @@ import logo from "../assets/logo.png";
 const About = () => {
   return (
     <div className="portfolio_container d-flex justify-content-center align-items-center">
-      <div className="d-flex justify-content-between align-items-center about_container">
+      <div className="d-flex justify-content-around align-items-center about_container">
         <div className="about_title">
           <h1>
             <TypeWriterEffect

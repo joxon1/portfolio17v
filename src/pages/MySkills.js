@@ -20,6 +20,7 @@ const MySkills = () => {
                 strokeWidth={20}
                 percentage={percentage}
                 color={color}
+                classes={"circle_progress"}
               />
             </div>
           </div>
