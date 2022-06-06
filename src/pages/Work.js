@@ -7,18 +7,17 @@ const Work = () => {
   return (
     <div className="portfolio_container text-white text-center work_list">
       <div className="work_title">My works</div>
-      <div className="work_link">
-        {WorkItem.map(({ title, link }) => (
-          <div className="text-decoration-none text-white work_link_box ">
-            <div className="img_box">
-              <a href={link} target="_blank" className="work_box_img">
-                {link}
-              </a>
-            </div>
+      {WorkItem.map(({ title, link, img }) => (
+        <div className="text-decoration-none text-white work_link_box ">
+          <img className="link_img" src={img} alt="image" />
+          <div className="link_box">
             <h2 className="work_box_title">{title}</h2>
+            <a href={link} target="_blank" className="work_box_img">
+              {link}
+            </a>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 };

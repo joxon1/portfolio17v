@@ -11,33 +11,38 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 800px;
+  width: 700px;
+  height: 400px;
   border: 1px solid rgb(97, 97, 97);
-  margin: 5px;
+  margin-bottom: 5px;
 }
 .work_link_box:hover {
   background-color: rgb(97, 97, 97);
   transition: all 1s;
 }
-.img_box{
-  width: 30%;
+.link_img{
+  padding: 5px;
+  width: 40%;
+  height: 100%;
 }
-.img_box a {
+.link_box a {
   padding: 10px;
   font-size: 17px;
 }
-.work_box_img {
-  padding: 10px;
-  width: 150px;
-}
+
 .work_box_title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
-  width: 50%;
 }
 @media screen and (max-width: 1384px) {
   .work_link_box {
     width: 300px;
+  }
+  .link_img{
+    height: 70%;
+  }
+  .link_box a {
+    font-size: 10px;
   }
   .work_box_title {
     font-size: 1rem;
