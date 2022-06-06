@@ -19,9 +19,10 @@
   background-color: rgb(97, 97, 97);
   transition: all 1s;
 }
-.img_box {
+.img_box a {
   padding: 10px;
   width: 50%;
+  font-size: 2rem;
 }
 .work_box_img {
   padding: 10px;
@@ -33,10 +34,10 @@
   width: 50%;
 }
 @media screen and (max-width: 1384px) {
-  .work_link_box{
+  .work_link_box {
     width: 300px;
   }
-  .work_box_title{
+  .work_box_title {
     font-size: 1rem;
   }
 }

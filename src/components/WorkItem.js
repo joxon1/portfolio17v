@@ -9,7 +9,7 @@ export const WorkItem = [
   },
   {
     title: "React JS",
-    img: "https://images04.nicepage.com/feature/511177/create-any-website-with-powerful-website-builder-website-builder.jpg"
+    link: "https://spa.joxon.ga"
   },
   {
     title: "React JS",
