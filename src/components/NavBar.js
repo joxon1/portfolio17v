@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/NavBar.css";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
+import { ABOUT_ROUTE, CONTACT, PROJECTS, SKILLS } from "../utils/const";
 
 const NavBar = () => {
   return (
@@ -11,10 +12,18 @@ const NavBar = () => {
           <img src={logo} alt="Road for Junior" />
         </div>
         <div className="d-flex flex-column justify-content-between align-items-center">
-          <Link className="navbar-brand brand_link">About</Link>
-          <Link className="navbar-brand brand_link">My Skills</Link>
-          <Link className="navbar-brand brand_link">Work</Link>
-          <Link className="navbar-brand brand_link">Contact</Link>
+          <Link to={ABOUT_ROUTE} className="navbar-brand brand_link">
+            About
+          </Link>
+          <Link to={SKILLS} className="navbar-brand brand_link">
+            My Skills
+          </Link>
+          <Link to={PROJECTS} className="navbar-brand brand_link">
+            Work
+          </Link>
+          <Link to={CONTACT} className="navbar-brand brand_link">
+            Contact
+          </Link>
         </div>
         <div className="d-flex flex-column">
           <Link class="bi bi-instagram navbar_icons"></Link>
