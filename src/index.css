@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  background: #1d1d1d;
+}
 .portfolio_container {
   display: flex;
   flex-direction: column;
@@ -11,11 +13,7 @@
   padding-left: 150px;
   background: #1d1d1d;
 }
-.loader_container {
-  width: 100vw;
-  height: 100vh;
-  background: #1d1d1d;
-}
+
 @media screen and (max-width: 1384px) {
   .portfolio_container {
     padding-left: 0;

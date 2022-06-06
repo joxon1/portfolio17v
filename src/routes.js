@@ -1,10 +1,4 @@
-import {
-  ABOUT_ROUTE,
-  SKILLS,
-  PROJECTS,
-  CONTACT,
-  HOME_ROUTE
-} from "./utils/const";
+import { ABOUT_ROUTE, SKILLS, CONTACT, WORKS } from "./utils/const";
 
 import About from "./pages/About";
 import MySkills from "./pages/MySkills";
@@ -14,18 +8,18 @@ import Contact from "./pages/Contact";
 export const blogRoutes = [
   {
     path: ABOUT_ROUTE,
-    Component: About
+    Component: About,
   },
   {
     path: SKILLS,
-    Component: MySkills
+    Component: MySkills,
   },
   {
-    path: PROJECTS,
-    Component: Work
+    path: WORKS,
+    Component: Work,
   },
   {
     path: CONTACT,
-    Component: Contact
-  }
+    Component: Contact,
+  },
 ];

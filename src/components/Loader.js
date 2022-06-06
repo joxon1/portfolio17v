@@ -5,13 +5,8 @@ import "../styles/Loader.css";
 const Loader = () => {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center loader_container text-white">
-      <Spinner
-        name="cube-grid"
-        style={{ width: 100, height: 100 }}
-      />
-      <div className="loader_logo">
-        <img src={logo} alt="" />
-      </div>
+      <Spinner name="circle" color="red" style={{ width: 150, height: 150 }} />
+      <img className="loader_logo" src={logo} alt="Road for Junior" />
     </div>
   );
 };

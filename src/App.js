@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Redirect } from "react-router-dom";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import AppRouter from "./components/AppRouter";
+import HomeRoute from "./components/HomeRoute";
 import Loader from "./components/Loader";
 import NavBar from "./components/NavBar";
 import About from "./pages/About";
@@ -10,11 +12,33 @@ import Work from "./pages/Work";
 import { blogRoutes } from "./routes";
 
 const App = () => {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 100);
+  }, []);
   return (
-    <BrowserRouter>
-      <Loader />
-      {/* <AppRouter/> */}
-    </BrowserRouter>
+    <>
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <BrowserRouter>
+            <NavBar />
+            <Switch>
+              <Route exact path="/" component={HomeRoute} />
+              <Route path="/about" component={About} />
+              <Route path="/skills" component={MySkills} />
+              <Route path="/works" component={Work} />
+              <Route path="/contact" component={Contact} />
+              <Redirect to={HomeRoute} />
+            </Switch>
+          </BrowserRouter>
+        </>
+      )}
+    </>
   );
 };
 
