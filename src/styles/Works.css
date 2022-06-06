@@ -10,7 +10,7 @@
 .work_link_box {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 800px;
   border: 1px solid rgb(97, 97, 97);
   margin: 5px;
@@ -19,10 +19,12 @@
   background-color: rgb(97, 97, 97);
   transition: all 1s;
 }
+.img_box{
+  width: 30%;
+}
 .img_box a {
   padding: 10px;
-  width: 50%;
-  font-size: 2rem;
+  font-size: 17px;
 }
 .work_box_img {
   padding: 10px;

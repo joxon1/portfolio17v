@@ -1,11 +1,11 @@
 export const WorkItem = [
   {
     title: "JavaScript",
-    img: "https://mobirise.com/assets52/images/poster.png"
+    link: "https://mobirise.com/assets52/images/poster.png"
   },
   {
     title: "JavaScript",
-    img: "https://images04.nicepage.com/feature/511177/create-any-website-with-powerful-website-builder-website-builder.jpg"
+    link: "https://weather.joxon.ga"
   },
   {
     title: "React JS",
@@ -13,6 +13,6 @@ export const WorkItem = [
   },
   {
     title: "React JS",
-    img: "https://findstack.com/wp-content/uploads/2021/02/word-image-14.png"
+    link: "https://joxon1.github.io/internet_magazin_react--v17"
   },
 ];
