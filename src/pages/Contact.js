@@ -5,6 +5,7 @@ import MyTextarea from "../components/UI/textarea/MyTextarea";
 import "../styles/Contact.css";
 import qr_code from "../assets/qrcode.png";
 import MyButton from "../components/UI/buttons/MyButton";
+import { INSTAGRAM, TELEGRAM, YOUTUBE } from "../utils/const";
 
 function Contact() {
   return (
@@ -23,9 +24,24 @@ function Contact() {
           </div>
           <div className="contact_number d-flex  justify-content-evenly align-items-center">
             <div className="contact_icons d-flex flex-column justify-content-evenly align-items-center ">
-              <Link id="icons" class="bi bi-instagram"></Link>
-              <Link id="icons" class="bi bi-telegram"></Link>
-              <Link id="icons" class="bi bi-youtube"></Link>
+              <a
+                href={INSTAGRAM}
+                target="_blank"
+                id="icons"
+                class="bi bi-instagram"
+              ></a>
+              <a
+                href={TELEGRAM}
+                target="_blank"
+                id="icons"
+                class="bi bi-telegram"
+              ></a>
+              <a
+                href={YOUTUBE}
+                target="_blank"
+                id="icons"
+                class="bi bi-youtube"
+              ></a>
             </div>
             <div className="contact_qr d-flex flex-column justify-content-center align-items-center">
               <h4>My number</h4>

@@ -8,6 +8,9 @@ import {
   HOME_ROUTE,
   WORKS,
   SKILLS,
+  INSTAGRAM,
+  TELEGRAM,
+  YOUTUBE,
 } from "../utils/const";
 
 const NavBar = () => {
@@ -34,9 +37,21 @@ const NavBar = () => {
           </Link>
         </div>
         <div className="d-flex flex-column">
-          <Link class="bi bi-instagram navbar_icons"></Link>
-          <Link class="bi bi-telegram navbar_icons"></Link>
-          <Link class="bi bi-youtube  navbar_icons "></Link>
+          <a
+            href={INSTAGRAM}
+            target="_blank"
+            class="bi bi-instagram navbar_icons"
+          ></a>
+          <a
+            href={TELEGRAM}
+            target="_blank"
+            class="bi bi-telegram navbar_icons"
+          ></a>
+          <a
+            href={YOUTUBE}
+            target="_blank"
+            class="bi bi-youtube  navbar_icons "
+          ></a>
         </div>
       </div>
     </>
