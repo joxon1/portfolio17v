@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Redirect } from "react-router-dom";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import AppRouter from "./components/AppRouter";
 import HomeRoute from "./components/HomeRoute";
 import Loader from "./components/Loader";
 import NavBar from "./components/NavBar";
@@ -9,7 +8,6 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import MySkills from "./pages/MySkills";
 import Work from "./pages/Work";
-import { blogRoutes } from "./routes";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -17,7 +15,7 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 100);
+    }, 3000);
   }, []);
   return (
     <>
@@ -41,7 +39,5 @@ const App = () => {
     </>
   );
 };
-
-
 
 export default App;

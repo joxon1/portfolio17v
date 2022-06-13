@@ -13,6 +13,7 @@ const HomeRoute = () => {
       <MySkills />
       <Work />
       <Contact />
+      
     </>
   );
 };
